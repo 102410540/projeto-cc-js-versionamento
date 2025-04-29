@@ -1,7 +1,7 @@
 function autenticarUsuario(email, senha) { 
     if (email === "aluno@exemplo.com" && senha === "senha123") { 
-        return "Autenticação bem-sucedida"; 
+        return "Login bem-sucedido"; 
     } 
-    return "Falha na autenticação"; } 
+    return "Erro no loging"; } 
 
     module.exports = { autenticarUsuario };
